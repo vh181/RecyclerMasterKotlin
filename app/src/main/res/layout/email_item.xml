@@ -33,6 +33,7 @@
             android:layout_marginStart="16dp"
             android:layout_toEndOf="@+id/iconi"
             android:layout_alignTop="@+id/iconi"
+            android:layout_toLeftOf="@id/txt_date"
             tools:text="Facebook"/>
 
         <TextView
