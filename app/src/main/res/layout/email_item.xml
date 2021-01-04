@@ -49,8 +49,8 @@
         <TextView
             android:id="@+id/text_preview"
             android:singleLine="true"
-            android:layout_below="@+id/user"
-            android:layout_alignStart="@+id/subject"
+            android:layout_below="@+id/subject"
+            android:layout_alignStart="@+id/user"
             android:ellipsize="marquee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,6 +58,24 @@
             android:textColor="@android:color/darker_gray"
             android:layout_marginEnd="24dp"
             tools:text="preview preview preview preview preview preview preview preview preview preview preview preview"/>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:textColor="@android:color/darker_gray"
+            android:singleLine="true"
+            tools:text="20 mai"
+            android:ellipsize="marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+        <ImageView
+            android:id="@+id/star"
+            android:src="@drawable/ic_star_"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
