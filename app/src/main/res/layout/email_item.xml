@@ -34,6 +34,30 @@
             android:layout_toEndOf="@+id/iconi"
             android:layout_alignTop="@+id/iconi"
             tools:text="Facebook"/>
+
+        <TextView
+            android:id="@+id/subject"
+            android:singleLine="true"
+            android:layout_below="@+id/user"
+            android:layout_alignStart="@+id/user"
+            android:ellipsize="marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            tools:text="Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook"/>
+        <TextView
+            android:id="@+id/text_preview"
+            android:singleLine="true"
+            android:layout_below="@+id/user"
+            android:layout_alignStart="@+id/subject"
+            android:ellipsize="marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginEnd="24dp"
+            tools:text="preview preview preview preview preview preview preview preview preview preview preview preview"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
