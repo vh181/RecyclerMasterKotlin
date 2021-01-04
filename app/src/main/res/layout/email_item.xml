@@ -21,10 +21,19 @@
             android:layout_height="48dp"
             android:textSize="24sp"
             android:textColor="@android:color/white"
-            android:background="@color/design_default_color_primary"
+            android:background="@drawable/circle"
             android:gravity="center"
             tools:text="V"/>
-
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/iconi"
+            android:layout_alignTop="@+id/iconi"
+            tools:text="Facebook"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
