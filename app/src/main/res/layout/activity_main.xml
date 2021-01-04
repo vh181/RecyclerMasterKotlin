@@ -24,9 +24,22 @@
     </com.google.android.material.appbar.AppBarLayout>
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recycler_view_main"
+    android:background="@android:color/white"
     android:layout_width="match_parent"
     android:layout_below="@id/app_bar"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/addbut"
+    android:src="@drawable/ic_add"
+    app:backgroundTint="@color/white"
+    android:tint="@color/red"
+    android:layout_width="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_height="wrap_content"/>
 
         </RelativeLayout>
