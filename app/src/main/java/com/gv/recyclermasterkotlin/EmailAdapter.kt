@@ -20,8 +20,6 @@ class EmailAdapter(val emails: MutableList<Email>): RecyclerView.Adapter<EmailAd
         TODO("Not yet implemented")
     }
 
-   
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+
+    override fun getItemCount(): Int = emails.size
 }
