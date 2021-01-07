@@ -22,7 +22,7 @@ class EmailAdapter(val emails: MutableList<Email>): RecyclerView.Adapter<EmailAd
     }
 
     inner class EmailViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        fun bind(email: Email) {g
+        fun bind(email: Email) {
 
 
 
