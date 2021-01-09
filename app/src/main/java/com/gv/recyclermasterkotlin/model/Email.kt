@@ -12,13 +12,13 @@ data class Email (
 
 class EmailBuilder {
     var user: String= ""
-        var subject: String=""
+    var subject: String=""
     var preview: String=""
     var date: String=""
     var stared: Boolean= false
     var unread: Boolean=false
 
-    fun buid() : Email = Email(user, subject, preview, date, stared, unread,false)
+    fun buid() : Email = Email(user,subject,preview,date,stared,unread,false)
 }
 fun email(block: EmailBuilder.() -> Unit): Email = EmailBuilder().apply(block).buid()
 
@@ -47,5 +47,5 @@ fun fakeEmails() :MutableList<Email> = mutableListOf(
         subject="Veja a batata doce da vida e ganhe desconto em sua viagem"
         preview="Ola Victor , vc precisa ver a vida sobre tudo que há"
         date="15 jan"
-        stared=false},
+        stared=false}
 )
